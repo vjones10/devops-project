@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 10000
 
-CMD ["gunicorn", "--blind", "0.0.0.0:10000", "app:app"]
+CMD ["python", "app.py"]
